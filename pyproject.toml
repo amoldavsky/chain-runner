@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "chain-runner"
+version = "0.1.0"
+description = "Multithreaded and Async lib for Langchain"
+authors = ["Assaf Moldavsky"]
+readme = "README.md"
+packages = [
+    { include = "chain_runner", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "~3.11"
+python-dotenv = "^1.0.0"
+pandas = "^2.1.0"
+openai = "^1.47.1"
+backoff = "^2.2.1"
+tiktoken = "^0.8.0"
+langchain = "^0.3.0"
+langchain-community = "^0.3.0"
+langchain-openai = "^0.2.0"
+deepeval = "~2.1.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
