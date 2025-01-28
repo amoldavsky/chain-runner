@@ -12,12 +12,12 @@ packages = [
 python = "~3.11"
 python-dotenv = "^1.0.0"
 pandas = "^2.1.0"
-openai = "^1.47.1"
+openai = "^1.60.2"
 backoff = "^2.2.1"
 tiktoken = "^0.8.0"
-langchain = "^0.3.0"
-langchain-community = "^0.3.0"
-langchain-openai = "^0.2.0"
+langchain = "^0.3.16"
+langchain-community = "^0.3.16"
+langchain-openai = "^0.3.2"
 deepeval = "~2.1.0"
 
 
